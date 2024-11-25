@@ -1,7 +1,10 @@
 package org.example.cx;
 
+import java.util.UUID;
+
 public class cxInformation {
     private String name;
+    private UUID cxUuid;
     private String mobileNumber; // Ideally mobileNumber should be an object
     private String emailId; // same with emailId
     private String[] paymentMethod;
